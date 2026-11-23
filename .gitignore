@@ -1,0 +1,25 @@
+# Track the public solution files explicitly. Assessment inputs and generated
+# outputs may be used locally without being added to Git by default.
+*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/requirements-solution.txt
+!/evaluate.py
+!/train_predict.py
+!/run_project.py
+!/freight_rate/
+!/freight_rate/__init__.py
+!/freight_rate/pipeline.py
+!/reports/
+!/reports/build_report.py
+!/validation/
+!/validation/check_submission.py
+!/tests/
+!/tests/test_pipeline.py
+!/analysis/
+!/analysis/source_manifest.json
+!/analysis/hgb_primary_results.json
+!/analysis/hgb_stress_results.json
+!/analysis/robustness_results.json
+!/analysis/benchmark_metrics.csv

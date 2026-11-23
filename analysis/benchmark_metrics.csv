@@ -1,0 +1,3 @@
+model,split,mae,rmse
+catboost_universal_mae,chronological_sep_oct,110.99722280434824,634.1062234030397
+catboost_universal_mae,chronological_jul_aug,167.77688036546184,629.5468798408889

@@ -1,0 +1,58 @@
+{
+  "parameters": {
+    "loss": "absolute_error",
+    "max_iter": 150,
+    "learning_rate": 0.08,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 40,
+    "l2_regularization": 10,
+    "early_stopping": false,
+    "categorical_features": "from_dtype",
+    "random_state": 1729
+  },
+  "metrics": [
+    {
+      "model": "hgb_robust_market_only",
+      "split": "chronological_sep_oct",
+      "mae": 134.832766409827,
+      "rmse": 642.1276142629271
+    },
+    {
+      "model": "hgb_robust_market_only",
+      "split": "random_80_20",
+      "mae": 95.93677665752023,
+      "rmse": 610.5901329592954
+    }
+  ],
+  "feature_contracts": {
+    "hgb_robust_market_only": {
+      "columns": [
+        "pickup",
+        "delivery",
+        "pickup_lat",
+        "pickup_lon",
+        "delivery_lat",
+        "delivery_lon",
+        "distance",
+        "equipment",
+        "weight",
+        "market_index",
+        "elapsed_days",
+        "month",
+        "day",
+        "weekday",
+        "month_sin",
+        "month_cos",
+        "weight_negative",
+        "weight_missing_original",
+        "weight_distance",
+        "weight_per_mile",
+        "log_distance",
+        "market_index_distance",
+        "distance_Dry_Van",
+        "distance_Reefer",
+        "distance_Flatbed"
+      ]
+    }
+  }
+}

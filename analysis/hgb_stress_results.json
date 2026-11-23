@@ -1,0 +1,10 @@
+{
+  "metrics": [
+    {
+      "configuration": "abs_weight_flag_market_only",
+      "split": "unseen_cities_temporal",
+      "mae": 117.8534991355425,
+      "rmse": 619.9725623839599
+    }
+  ]
+}

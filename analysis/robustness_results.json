@@ -1,0 +1,10 @@
+{
+  "metrics": [
+    {
+      "experiment": "abs_weight_flag_market_only",
+      "fold": "jul_aug",
+      "mae": 121.5414653075046,
+      "rmse": 620.5341432970995
+    }
+  ]
+}
